@@ -1,5 +1,6 @@
 
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Resume from './components/Resume';
 import About from './components/About';
 import Nav from './components/Nav';
@@ -17,8 +18,8 @@ function App() {
     return (
         <div>
             <Nav
-            resumeSelected={resumeSelected}
-            setResumeSelected={setResumeSelected}
+                resumeSelected={resumeSelected}
+                setResumeSelected={setResumeSelected}
                 contactSelected={contactSelected}
                 setContactSelected={setContactSelected}
                 portfolioSelected={portfolioSelected}
@@ -30,19 +31,20 @@ function App() {
                     {portfolioSelected ? (
                         <Portfolio></Portfolio>
                     )
-                        
-                     : contactSelected ? (   
-                       <Contact></Contact>
-                        
-                    ) 
-                    : resumeSelected ? (   
-                        <Resume></Resume>
-                         
-                     ): <About></About> 
-                        }
+
+                        : contactSelected ? (
+                            <Contact></Contact>
+
+                        )
+                            : resumeSelected ? (
+                                <Resume></Resume>
+
+                            ) : <About></About>
+                    }
 
                 </div>
             </main>
+            <Footer></Footer>
         </div>
     );
 }

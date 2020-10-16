@@ -13,13 +13,13 @@ function Nav(props) {
     return (
         <header className="flex-row px-1">
             <h2>
-                <a data-testid="link" href="/">
+                <a className="mx-2" data-testid="link" href="/">
                     Alexander Vasilkov
           </a>
             </h2>
             <nav>
                 <ul className="flex-row">
-                <li>
+                <li className={`mx-2 ${!contactSelected && !resumeSelected && !portfolioSelected &&'navActive'}`}>
                     {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}> */}
                     <span onClick={() => {
                         setResumeSelected(false)
@@ -28,16 +28,16 @@ function Nav(props) {
                     }}>About me</span>
                         {/* <span onClick={() => setContactSelected(true)}>Contact</span> */}
                     </li>
-                    <li className="mx-2">
+                    <li className={`mx-2 ${contactSelected  && 'navActive'}`}>
                         {/* <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}> */}
                         <span onClick={() => {
                             setResumeSelected(false)
                             setPortfolioSelected(false)
-                            setContactSelected(true);
+                            setContactSelected(true); 
                         }}>Contact</span>
               {/* </a> */}
                     </li>
-                    <li>
+                    <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
                     {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}> */}
                     <span onClick={() => {
                         setResumeSelected(false)
@@ -46,7 +46,7 @@ function Nav(props) {
                     }}>Portfolio</span>
                         {/* <span onClick={() => setContactSelected(true)}>Contact</span> */}
                     </li>
-                    <li>
+                    <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
                     {/* <li className={`mx-2 ${contactSelected && 'navActive'}`}> */}
                     <span onClick={() => {
                         setResumeSelected(true)
