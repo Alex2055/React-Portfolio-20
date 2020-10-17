@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section className="my-5">
 
-      <a href="/assets/resume.txt" download>Download resume
+      <a href={require(`../../assets/resume.txt`)} download>Download resume
 </a>
       <div id="resume-container">
         <div className="res">
