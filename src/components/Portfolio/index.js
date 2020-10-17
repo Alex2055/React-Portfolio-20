@@ -1,68 +1,58 @@
-import React, {useState} from 'react';
-// import coverImage from "../../assets/cover/cover-image.jpg";
-
+import React, { useState } from 'react'
 
 function Portfolio() {
-    const [photos] = useState([
-        {
-          name: 'Weather App',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-          link: 'https://alex2055.github.io/6th-week-challenge/index.html'
-        },
-        {
-          name: 'Grocery booth',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Building exterior',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Restaurant table',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Cafe interior',
-          category: 'commercial',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Cat green eyes',
-          category: 'portraits',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Green parrot',
-          category: 'portraits',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-          name: 'Yellow macaw',
-          category: 'portraits',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        } ]);
-    
-    return (
-        <div>
-          <div className="flex-row">
-            {photos.map((image, i) => (
-                <div className="image-container" style={{backgroundImage: `url(${require(`../../assets/projects/${i}.png`)})`}}>
-                    <a className="git-link" href={image.link}>
-            <img className="foo-img"
+  const [photos] = useState([
+    {
+      name: 'Weather App',
+      applink: 'https://alex2055.github.io/6th-week-challenge/index.html',
+      gitlink: 'https://github.com/Alex2055/third-week-challenge'
+    },
+    {
+      name: 'Horiseon',
+      gitlink: 'https://github.com/Alex2055/first-week-challenge',
+      applink: 'https://alex2055.github.io/first-week-challenge'
+    },
+    {
+      name: 'Scheduler',
+      gitlink: 'https://github.com/Alex2055/5th-week-challenge',
+      applink: 'https://alex2055.github.io/5th-week-challenge'
+    },
+    {
+      name: 'Generator',
+      gitlink: 'https://github.com/Alex2055/third-week-challenge',
+      applink: 'https://alex2055.github.io/third-week-challenge',
+    },
+    {
+      name: 'Doggyprdia',
+      applink: 'https://kray306090.github.io/yorkie-terrier/',
+      gitlink: 'https://github.com/KRAY306090/yorkie-terrier',
+    },
+    {
+      name: 'Buy Smart',
+      applink: 'https://fast-bastion-33726.herokuapp.com',
+      gitlink: 'https://github.com/Alex2055/Buysmart',
+    }
+  ]);
+
+  return (
+    <div>
+      <h2>Projects</h2>
+      <div className="flex-row">
+        {photos.map((image, i) => (
+          <div className="image-container" style={{ backgroundImage: `url(${require(`../../assets/projects/${i}.png`)})` }}>
+            <span className="git-link" href={image.gitlink}>
+              <img className="foo-img"
                 src={require(`../../assets/icons/github.png`)}
               />
-              </a>
-                <div ><a href={image.link} className="project-name">{image.name}</a>
-                </div>
-                </div>
-            
-            ))}
+            </span>
+            <div className="app-link"><a href={image.applink} className="project-name">{image.name}</a>
+            </div>
           </div>
-        </div>
-      )
+
+        ))}
+      </div>
+    </div>
+  )
 }
 
 export default Portfolio;
