@@ -3,14 +3,24 @@ import React, { useState } from 'react'
 function Portfolio() {
   const [photos] = useState([
     {
+      name: 'Uncode Career',
+      gitlink: 'https://github.com/cjacktwil/uncode-your-career',
+      applink: 'https://murmuring-everglades-03231.herokuapp.com'
+    },
+    {
+      name: 'Buy Smart',
+      applink: 'https://fast-bastion-33726.herokuapp.com',
+      gitlink: 'https://github.com/Alex2055/Buysmart',
+    },
+    {
+      name: 'Doggyprdia',
+      applink: 'https://kray306090.github.io/yorkie-terrier/',
+      gitlink: 'https://github.com/KRAY306090/yorkie-terrier',
+    },
+    {
       name: 'Weather App',
       applink: 'https://alex2055.github.io/6th-week-challenge/index.html',
       gitlink: 'https://github.com/Alex2055/third-week-challenge'
-    },
-    {
-      name: 'Horiseon',
-      gitlink: 'https://github.com/Alex2055/first-week-challenge',
-      applink: 'https://alex2055.github.io/first-week-challenge'
     },
     {
       name: 'Scheduler',
@@ -21,16 +31,6 @@ function Portfolio() {
       name: 'Generator',
       gitlink: 'https://github.com/Alex2055/third-week-challenge',
       applink: 'https://alex2055.github.io/third-week-challenge',
-    },
-    {
-      name: 'Doggyprdia',
-      applink: 'https://kray306090.github.io/yorkie-terrier/',
-      gitlink: 'https://github.com/KRAY306090/yorkie-terrier',
-    },
-    {
-      name: 'Buy Smart',
-      applink: 'https://fast-bastion-33726.herokuapp.com',
-      gitlink: 'https://github.com/Alex2055/Buysmart',
     }
   ]);
 
