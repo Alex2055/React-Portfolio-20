@@ -1,0 +1,67 @@
+Alexander Vasilkov
+
+Lebanon, TN / (615)944-4166/ alexfromnashville@gmaill.com
+Authorized to work in the US.
+Linkedin
+Portfolio: http://Alex2055.github.io/React-Portfolio-20
+GitHub: https://github.com/Alex2055
+
+PROFESSIONAL SUMMARY
+Self-Motivated, organized, excellent communication, coordination, analytical & problem-solving skills.  
+Ability to adapt to a new environment quickly, strong team player, enthusiastic learner, sincere and committed
+
+TECHNICAL SKILLS
+
+Languages: JavaScript, HTML, CSS
+IDE: Visual Studio
+Bug Tracking Tools: Dev Tools
+Testing: Jest
+Version Control System: Git
+Framework: React
+Deployment: Heroku, MongoDB Atlas
+APIs: Web APIs, Server Side APIs, Third-Party APIs
+Backend: Node, Express, SQL, NoSQL, GraphQL, MongoDB, Mongoose ODM
+
+
+
+EDUCATION
+Vanderbilt Bootcamp: Full Stack Developer
+
+Masters Degree: Tambov State University(Russia)
+Manager of Social Culture Activity 
+
+School of Mathematics and Physics(Russia)
+
+
+
+PROJECTS
+Uncode Your Career (Tools: MERN, JavaScript, Css, AntUI )
+Description: A MERN stack SPA that allows recent coding boot camp grads to search for available jobs in the industry.
+GitHub: https://github.com/cjacktwil/uncode-your-career
+Deployed App: https://murmuring-everglades-03231.herokuapp.com/
+----------------------------------------------------------------------------------------------------
+Shop Smart (Handlebars, JavaScript,CSS, Jquery Mobile
+Backend: Sequelize, MySQL2, Express)
+Description: BuySmart is an app that helps shoppers keep essential information at their fingertips.
+GitHub: https://github.com/Alex2055/Buysmart
+Deployed App: https://fast-bastion-33726.herokuapp.com
+---------------------------------------------------------------------------------------------------------------
+Doggipedia (JavaScript, Css, Bulma, server-side APIs)
+Description: Doggypedia aggregates information on a wide variety of dog breeds.
+GitHub: https://github.com/KRAY306090/yorkie-terrier.git
+Deployed App: https://kray306090.github.io/yorkie-terrier/
+
+
+
+
+WORK EXPERIENCE
+
+ Motorcars of Nashville ( Nashville, TN )
+Sales person, Sales manager, Store manager. (2010 to present)
+
+Improvement :  Inventory and employees state grew from 20 units and 3 workers in 2010 to 160 units and 12 workers.
+
+Professional skills: Implementation of new technologies and software, organization of work processes and new employees training, customer service conflicts resolution, financial control.
+
+
+
