@@ -42,7 +42,7 @@ function Contact() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      <h1>Contact me (alexfromnashville@gmail.com)</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

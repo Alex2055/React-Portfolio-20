@@ -36,8 +36,8 @@ body {
 }
 
 #about {
-  font-size: 25px;
-  font-family: Snell Roundhand, cursive;
+  font-size: 22px;
+  font-family: Aparajita;
   text-align: left;
   text-indent: 50px;
 }
@@ -283,8 +283,7 @@ footer h2 {
   display: flex;
   justify-content: center;
 }
-
-.res {
+y.res {
   margin: 45px;
 }
 
