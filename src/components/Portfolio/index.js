@@ -6,37 +6,43 @@ function Portfolio() {
       name: 'UY Career',
       gitlink: 'https://github.com/cjacktwil/uncode-your-career',
       applink: 'https://murmuring-everglades-03231.herokuapp.com',
-      description: 'DESCRIPTION: A MERN stack SPA that allows recent coding boot camp grads to search for available jobs in the industry.'
+      description: 'DESCRIPTION: A MERN stack SPA that allows recent coding boot camp grads to search for available jobs in the industry.',
+      tools: 'BUILT WITH: MERN, JavaScript, Css, AntUI'
     },
     {
       name: 'Buy Smart',
       applink: 'https://fast-bastion-33726.herokuapp.com',
       gitlink: 'https://github.com/Alex2055/Buysmart',
-      description: 'sasdfasfdadaf'
+      description: 'DESCRIPTION: BuySmart is an app that helps shoppers keep essential information at their fingertips.',
+      tools: 'BUILT WITH: Handlebars JavaScript CSS Jquery Mobile BACKEND: Sequelize MySQL2 Express'
     },
     {
       name: 'Doggyprdia',
       applink: 'https://kray306090.github.io/yorkie-terrier/',
       gitlink: 'https://github.com/KRAY306090/yorkie-terrier',
-      description: 'sasdfasfdadaf'
+      description: 'DESCRIPTION: Doggypedia aggregates informaiton on a wide variety of dog breeds in one place.',
+      tools: 'BUILT WITH: HTML CSS Javascript Jquery Bumla.io'
     },
     {
       name: 'Weather App',
       applink: 'https://alex2055.github.io/6th-week-challenge/index.html',
       gitlink: 'https://github.com/Alex2055/third-week-challenge',
-      description: 'sasdfasfdadaf'
+      description: 'DESCRIPTION: Check weather in multiple cities.',
+      tools: 'BUILT WITH: HTML CSS Javascript Bootstrap Moment.js OpenWeather API'
     },
     {
       name: 'Scheduler',
       gitlink: 'https://github.com/Alex2055/5th-week-challenge',
       applink: 'https://alex2055.github.io/5th-week-challenge',
-      description: 'sasdfasfdadaf'
+      description: 'DESCRIPTION: Simple calendar application that allows a user to save events for each hour of the day',
+      tools: 'BUILT WITH: HTML CSS Javascript JQuery Moment.js'
     },
     {
       name: 'Generator',
       gitlink: 'https://github.com/Alex2055/third-week-challenge',
       applink: 'https://alex2055.github.io/third-week-challenge',
-      description: 'sasdfasfdadaf'
+      description: 'DESCRIPTION: Generates a random password based on user-selected criteria',
+      tools: 'BUILT WITH: HTML CSS Javascript'
     }
   ]);
 
@@ -54,6 +60,7 @@ function Portfolio() {
             <div className="app-link"><a href={image.applink} className="project-name">{image.name}</a>
             </div>
             <div className="desc">{image.description}</div>
+            <div className="desc">{image.tools}</div>
           </div>
 
         ))}
